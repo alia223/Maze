@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>MAZER</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js" integrity="sha512-WIklPM6qPCIp6d3fSSr90j+1unQHUOoWDS4sdTiR8gxUTnyZ8S2Mr8e10sKKJ/bhJgpAa/qG068RDkg6fIlNFA==" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <script src="../js/global.js"></script>
+    <script src="../js/cell.js"></script>
+    <script src="../js/maze.js"></script>
+    <script src="../js/a-star.js"></script>
+    <button class="btn btn-primary" style="margin: 10px;" onclick="generateMaze()">Generate Maze</button>
+    <button class="btn btn-success" style="margin: 10px;" onclick="solveClicked()">SOLVE</button>
+    <p id="wait-msg" style="margin: 10px;"></p>
+    <script>
+      function generateMaze() {
+        location.reload();
+      }
+    </script>
+  </body>
+</html>
